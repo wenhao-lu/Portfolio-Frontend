@@ -14,7 +14,7 @@ export default function SkillList() {
   // fetch all movies info from the database, order by the popularity (default by the API database)
   async function fetchSkills() {
     // the API syntax, take apiKey as a parameter
-    let response = await fetch("http://c9674390.mywhc.ca/api/skills");
+    let response = await fetch("https://c9674390.mywhc.ca/api/skills");
     let data = await response.json();
     console.log(data);
     setSkills(data);
