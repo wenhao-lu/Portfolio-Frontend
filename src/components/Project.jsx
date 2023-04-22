@@ -10,7 +10,7 @@ export default function ProjectList() {
   // use Larevel backend API to fetch all projects info from the database
   async function fetchProjects() {
     // the URL to call my API, my online hosting was just set, haven't changed the domain name yet
-    let response = await fetch("http://c9674390.mywhc.ca/api/projects");
+    let response = await fetch("https://c9674390.mywhc.ca/api/projects");
     let data = await response.json();
     //console.log(data);
     setProjects(data);
