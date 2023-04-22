@@ -53,7 +53,7 @@ export default function ProjectList() {
                 <li>
                   <a href={project.url}>
                     <img
-                      src="/src/assets/logo/live.png"
+                      src="../assets/logo/live.png"
                       width="35"
                       height="35"
                       className="projectLink1"
