@@ -7,7 +7,7 @@ export default function Education() {
   // fetch all movies info from the database, order by the popularity (default by the API database)
   async function fetchEducations() {
     // the API syntax, take apiKey as a parameter
-    let response = await fetch("http://c9674390.mywhc.ca/api/educations");
+    let response = await fetch("https://c9674390.mywhc.ca/api/educations");
     let data = await response.json();
     console.log(data);
     setEducations(data);
