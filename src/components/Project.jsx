@@ -64,7 +64,7 @@ export default function ProjectList() {
                 <li>
                   <a href={project.slug}>
                     <img
-                      src="/src/assets/logo/github.png"
+                      src="../assets/logo/github.png"
                       width="40"
                       height="40"
                       className="projectLink2"
